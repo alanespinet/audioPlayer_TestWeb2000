@@ -1,0 +1,16 @@
+Test
+
+1. ii - The number of actions the browser must take (eg run js, build cssom, build dom, etc) in order to fully load and render your page
+
+2. i - Parse HTML, Parse CSS, Layout
+
+3. It is a representation that reflects the elements existing in the DOM that are visible (those ones that have the 'display' property different to 'none'. There are also excluded from the tree elements that are not visible at all, like the head tag). The main aspect in the rendering tree is that each tree element encapsulates a DOM element and the styles it contains, so normally the rendering tree is known as a visual representation of the DOM.
+
+4. 	-Minify js and html files.
+	-Reduce the amount of CSS.
+	-Use media queries to evaluate when to run specified scripts and/or styles.
+
+5. PageSpeed Insights
+
+
+ 

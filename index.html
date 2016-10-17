@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Audio Player</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/master.css" />
+</head>
+
+<body>
+  <header>
+
+    <div class="audio-source">
+      <h1>Audio Player</h1>
+
+      <div class="controls">
+        <input type="text" id="txturl" placeholder="Audio ULR" />
+        <button type="button" id="btnload">Load</button>
+      </div>
+
+      <audio id="theaudio" controls>
+      </audio>
+
+      <div class="extra-controls">
+        <i class="fa fa-fast-forward fa-2x" id="advanceTenSeconds"></i>
+        <i class="fa fa-fast-backward fa-2x" id="rewindTenSeconds"></i>
+        <i class="fa fa-arrow-up fa-2x" id="goFaster"></i>
+        <i class="fa fa-arrow-down fa-2x" id="goSlower"></i>
+      </div>
+    </div>
+
+  </header>
+
+  <script src="vendor/js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+</body>
+
+</html>
